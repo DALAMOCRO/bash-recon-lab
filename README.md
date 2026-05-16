@@ -92,3 +92,20 @@ This lab helped improve:
 - Understanding of network services
 - Enumeration mindset
 - Technical documentation skills
+
+- ## Additional Bash Concepts
+
+### Variables
+Learned how to store and display data.
+
+### User Input
+Learned how to receive user input using read.
+
+### Conditions
+Practiced if/else logic.
+
+### Loops
+Practiced automation using for loops.
+
+### Ping Automation
+Created a simple ping reconnaissance script.
