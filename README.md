@@ -360,3 +360,9 @@ Simple Bash script automating:
 - Importance of service versions
 - SMB and FTP enumeration basics
 - Pentest reconnaissance methodology
+
+# Screenshots
+
+## Service Enumeration Output
+
+![Enumeration](screenshots/service-enum-output.png)
