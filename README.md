@@ -243,4 +243,120 @@ Simple Bash script automating an Nmap SYN scan.
 - Bash automation
 - Reconnaissance workflow
 
-- 
+  # Day 7 - Service Enumeration
+
+## Objective
+
+Practice service enumeration techniques used during penetration testing.
+
+The goal is to identify:
+- services
+- versions
+- shares
+- exposed resources
+- potential attack surfaces
+
+---
+
+# Services Studied
+
+## FTP - Port 21
+
+Used for file transfer.
+
+### Pentester Goals
+
+- Check anonymous access
+- Identify exposed files
+- Detect upload permissions
+- Identify FTP server version
+
+---
+
+## SSH - Port 22
+
+Used for secure remote Linux access.
+
+### Pentester Goals
+
+- Identify SSH version
+- Detect authentication methods
+- Search for known vulnerabilities
+
+---
+
+## SMB - Port 445
+
+Used for Windows file sharing and Active Directory environments.
+
+### Pentester Goals
+
+- Enumerate SMB shares
+- Identify domains/workgroups
+- Detect anonymous access
+- Analyze permissions
+
+---
+
+## HTTP/HTTPS - Ports 80/443
+
+Used for web applications and websites.
+
+### Pentester Goals
+
+- Detect technologies
+- Enumerate directories
+- Analyze HTTP headers
+- Identify admin panels
+
+---
+
+# Enumeration Concepts
+
+## Scan vs Enumeration
+
+### Scan
+Identifies open ports.
+
+### Enumeration
+Collects detailed information about exposed services.
+
+---
+
+# Tools Used
+
+- Nmap
+- smbclient
+- curl
+- Gobuster
+
+---
+
+# Commands Practiced
+
+```bash
+nmap -sV
+nmap --script smb-os-discovery
+smbclient -L
+curl -I
+```
+
+---
+
+# Script Added
+
+## service-enum.sh
+
+Simple Bash script automating:
+- service version detection
+- HTTP header analysis
+
+---
+
+# Key Learning Outcomes
+
+- Understanding common network services
+- Difference between scanning and enumeration
+- Importance of service versions
+- SMB and FTP enumeration basics
+- Pentest reconnaissance methodology
