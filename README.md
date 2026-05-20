@@ -428,4 +428,63 @@ Simple Bash script automating:
 
 ![PrivEsc](screenshots/Privesec-enum-Screen.png)
 
-- 
+# Day 9 - File Transfers & Networking Basics
+
+## Objective
+
+Practice file transfer techniques and networking concepts commonly used during penetration testing.
+
+---
+
+# Concepts Practiced
+
+- File transfers
+- Python HTTP server
+- wget
+- curl
+- Netcat basics
+- Reverse shell concepts
+- Bind shell concepts
+
+---
+
+# Commands Practiced
+
+```bash
+wget
+curl -O
+python -m http.server
+nc -lvnp
+```
+
+---
+
+# Tools Used
+
+- Python HTTP Server
+- Netcat
+- wget
+- curl
+- Git Bash
+
+---
+
+# Script Added
+
+## transfer-helper.sh
+
+Simple Bash script automating:
+- local network information
+- Python HTTP server startup
+
+---
+
+# Key Learning Outcomes
+
+- Understanding file transfer methods
+- Understanding basic shell concepts
+- Learning networking communication basics
+- Practicing local HTTP file sharing
+- Understanding reverse shell vs bind shell concepts
+
+
