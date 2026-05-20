@@ -422,3 +422,10 @@ Simple Bash script automating:
 - Understanding PATH variables
 - Recognizing dangerous permissions
 - Practicing local enumeration methodology
+- # Screenshots
+
+## Privilege Escalation Enumeration
+
+![PrivEsc](screenshots/Privesec-enum-Screen.png)
+
+- 
