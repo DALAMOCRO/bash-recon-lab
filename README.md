@@ -366,3 +366,59 @@ Simple Bash script automating:
 ## Service Enumeration Output
 
 ![Enumeration](screenshots/service-enum-output.png)
+
+# Day 8 - Linux Privilege Escalation Basics
+
+## Objective
+
+Practice Linux local enumeration and privilege escalation concepts used during penetration testing.
+
+---
+
+# Concepts Practiced
+
+- Local enumeration
+- User and group identification
+- sudo privilege analysis
+- SUID files
+- PATH variable inspection
+- Linux permissions
+- System information gathering
+
+---
+
+# Commands Practiced
+
+```bash
+whoami
+id
+groups
+pwd
+echo $PATH
+uname -a
+sudo -l
+find / -perm -4000
+```
+
+---
+
+# Script Added
+
+## privesc-enum.sh
+
+Simple Bash script automating:
+- user enumeration
+- group enumeration
+- PATH inspection
+- network information
+- system information gathering
+
+---
+
+# Key Learning Outcomes
+
+- Understanding Linux privilege escalation basics
+- Identifying users and groups
+- Understanding PATH variables
+- Recognizing dangerous permissions
+- Practicing local enumeration methodology
